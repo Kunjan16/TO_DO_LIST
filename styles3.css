@@ -1,0 +1,106 @@
+body {
+	     background-image: url("h2.jpeg");
+	     background-color: #cccccc;
+	     
+    text-align: center;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+.container1 {
+background-image: url("Silver2.jpg");
+     background-color: #cccccc;
+height: 400px;
+width: 500px;
+	     font-family: Arial, sans-serif;
+    text-align: center;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+    margin: 10px auto;
+    padding: 20px 20px;   
+
+            justify-content: center;
+            
+}
+
+.container {
+     background-image: url("h2.jpeg");
+     height: 370px;
+     width: 600px
+     font-family: Arial, sans-serif;
+    text-align: center;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    margin: 10px;
+    padding: 10px;
+    
+   }
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    color:white;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-image: url("L.jpg");
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    border-bottom: 5px solid black;
+    font-weight: bold;
+}
+
+li:last-child {
+    border-bottom: none;
+}
